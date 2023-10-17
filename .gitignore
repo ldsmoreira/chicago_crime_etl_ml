@@ -159,4 +159,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-dataset_uploader/data/chicago_crimes_2020_to_2022.csv
+dataset_uploader/chicago_crimes_2020_to_2022.csv
