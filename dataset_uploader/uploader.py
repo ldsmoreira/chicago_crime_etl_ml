@@ -33,7 +33,7 @@ def upload_to_s3(file_name, bucket, object_name=None):
 
 if __name__ == "__main__":
 
-    file_name = "data/chicago_crimes_2020_to_2022.csv"
+    file_name = "chicago_crimes_2020_to_2022.csv"
     bucket = AWS_BUCKET_NAME
 
     upload_to_s3(file_name, bucket, "data/chicago_crime_database/chicago_crime_csv/chicago_crimes_2020_to_2022.csv")
